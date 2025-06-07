@@ -18,7 +18,6 @@ git commit -m "Initial commit with Selenium TestNG framework"
 git remote add origin https://github.com/your-username/repository-name.git
 git push -u origin main
 
-## 4. If you need to change your code
 git add .
 git commit -m "commit message"
 git push
