@@ -1,11 +1,11 @@
-package com.demo.test;
+package test;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.demo.page.LoginPage;
+import main.LoginPage;
 
 public class LoginTest extends BaseTest {
 

@@ -1,8 +1,8 @@
-package com.demo.test;
+package test;
 
 import org.testng.annotations.Test;
 
-import com.demo.page.LogoutPage;
+import main.LogoutPage;
 
 public class LogoutTest extends BaseTest{
 
