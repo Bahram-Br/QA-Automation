@@ -8,10 +8,12 @@ public class LogoutTest extends BaseTest{
 
 	@Test  
 	public void logout() {
+
+		LoginTest loginTest = new LoginTest();
+		loginTest.loginWithValidValue();
 		
-	LogoutPage logoutPage = new LogoutPage();
-	
-	logoutPage.LogoutFromApplication();
+		LogoutPage logoutPage = new LogoutPage();
+		logoutPage.LogoutFromApplication();
 	
 	}
 }
